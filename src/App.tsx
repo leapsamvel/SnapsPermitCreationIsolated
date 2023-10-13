@@ -160,6 +160,7 @@ const metamaskCosmosSnap = async () => {
             ],
             sequence: "0", // Must be 0
           },
+          isADR36: true
         },
       },
     },
@@ -203,6 +204,7 @@ const cosmosSnapProvider = async () => {
     },
     {
       preferNoSetFee: true, // Fee must be 0, so hide it from the user
+      isADR36: true
     }
   );
 
